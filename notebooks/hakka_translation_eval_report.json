@@ -1,0 +1,1422 @@
+{
+  "hakka2zh": {
+    "summary": {
+      "samples": 1251,
+      "avg_sentence_bleu": 0.579769,
+      "corpus_bleu": 0.575066,
+      "bert_score_f1": 0.914156
+    },
+    "samples": [
+      {
+        "source": "愛過年了，做得去買一本新个日誌來換。",
+        "reference": "快要過年了，可以去買一本新的日曆來換。",
+        "prediction": "要過年了，可以去買一本新的日記來換。",
+        "sentence_bleu": 0.80334,
+        "bert_score_f1": 0.958182
+      },
+      {
+        "source": "雖然日頭恁大，汗水流毋停，毋過大家還係盡煞猛練球，就係為著愛得冠軍。",
+        "reference": "雖然太陽很大，汗水流不停，但大家仍努力的練球，只為了得到冠軍。",
+        "prediction": "雖然太陽這麼大，汗水流不停，但大家仍是非常努力練習，就是為了要得到冠軍。",
+        "sentence_bleu": 0.527045,
+        "bert_score_f1": 0.909395
+      },
+      {
+        "source": "駕駛飛行機係無恁該个頭路。",
+        "reference": "駕駛飛機是不容易的工作。",
+        "prediction": "駕駛飛行機是沒那麼容易的工作。",
+        "sentence_bleu": 0.493558,
+        "bert_score_f1": 0.904037
+      },
+      {
+        "source": "𠊎敢做敢當，佢愛仰般隨在佢。",
+        "reference": "我敢做敢當，他要如何隨他。",
+        "prediction": "我敢做敢當，他要怎麼樣就隨他去吧！",
+        "sentence_bleu": 0.487796,
+        "bert_score_f1": 0.861572
+      },
+      {
+        "source": "照佛教輪迴个講法，在人間做惡，會打入陰間个十八層地獄。",
+        "reference": "依佛教輪迴的說法，在人間作惡，會打入陰間的十八層地獄。",
+        "prediction": "依據佛教輪迴的說法，在人間做壞事，會下到陰間的十八層地獄。",
+        "sentence_bleu": 0.656803,
+        "bert_score_f1": 0.951812
+      },
+      {
+        "source": "開會照程序來，正毋會拖拖挷挷。",
+        "reference": "開會依程序，才不會拖拖拉拉。",
+        "prediction": "開會按程序來，才不會拖拖拉拉。",
+        "sentence_bleu": 0.666587,
+        "bert_score_f1": 0.965412
+      },
+      {
+        "source": "老弟分阿爸罵，嘴翹翹毋歡喜。",
+        "reference": "弟弟被爸爸罵，嘴巴翹翹的不高興。",
+        "prediction": "弟弟被父親責備，臉色不悅。",
+        "sentence_bleu": 0.162341,
+        "bert_score_f1": 0.775521
+      },
+      {
+        "source": "這擺考試佢全班第一名，得著一張獎狀。",
+        "reference": "這次考試他全班第一名，得到一張獎狀。",
+        "prediction": "這次考試他全班第一名，得到一張獎狀。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "新个人事命令出來了。",
+        "reference": "新的人事命令公布了。",
+        "prediction": "新的人事命令出來了。",
+        "sentence_bleu": 0.631555,
+        "bert_score_f1": 0.921901
+      },
+      {
+        "source": "佢相貌堂堂，學問又好，在共輩中算係人才。",
+        "reference": "他相貌堂堂，學問又好，在同輩中算是人才。",
+        "prediction": "他相貌堂堂，學問又好，在同輩中算是人才。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "你講話顛顛倒倒，輒輒會當矛盾。",
+        "reference": "你說話顛顛倒倒，時常會很矛盾。",
+        "prediction": "你說話反覆不一，常常會很矛盾。",
+        "sentence_bleu": 0.468924,
+        "bert_score_f1": 0.893395
+      },
+      {
+        "source": "用手拿東西食以前，愛先去洗手。",
+        "reference": "用手拿東西吃以前，要先去洗手。",
+        "prediction": "用手拿東西吃之前，要先去洗手。",
+        "sentence_bleu": 0.815355,
+        "bert_score_f1": 0.988456
+      },
+      {
+        "source": "舅姆雖然長年戴在外國，毋過對祖國所發生个事情還係非常關心。",
+        "reference": "舅媽雖然長年住在外國，但對祖國所發生的事情還是非常關心。",
+        "prediction": "姑媽雖然長年住在外國，但對祖國所發生的事件仍然很關心。",
+        "sentence_bleu": 0.723342,
+        "bert_score_f1": 0.959855
+      },
+      {
+        "source": "逐擺選舉候選人都互相醜化對手，實在分人看毋落去。",
+        "reference": "每次選舉候選人都互相醜化對手，實在讓人看不下去。",
+        "prediction": "每次選舉候選人都互相醜化對手，實在令人看不下去。",
+        "sentence_bleu": 0.889526,
+        "bert_score_f1": 0.995241
+      },
+      {
+        "source": "佢存心愛嚇人。",
+        "reference": "他有意要嚇人。",
+        "prediction": "他存心要嚇人。",
+        "sentence_bleu": 0.541082,
+        "bert_score_f1": 0.906842
+      },
+      {
+        "source": "用棉布做个衫褲，𠲿汗又耐著。",
+        "reference": "用棉布做的衣服，吸汗又耐穿。",
+        "prediction": "用棉布做的衣服，吸汗又耐穿。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "對當多學美術个人來講，白饅頭比橡皮還較好用。",
+        "reference": "對許多學美術的人來說，白饅頭比橡皮還好用。",
+        "prediction": "對很多學美術的人來說，白紙比橡皮還好用。",
+        "sentence_bleu": 0.734534,
+        "bert_score_f1": 0.960135
+      },
+      {
+        "source": "佢兜在車站分手之後，就各自轉屋下去了。",
+        "reference": "他們在車站分手之後，就各自回家去了。",
+        "prediction": "他們倆在車站分手之後，就各自回家了。",
+        "sentence_bleu": 0.786748,
+        "bert_score_f1": 0.974267
+      },
+      {
+        "source": "大家共下合唱生日快樂歌。",
+        "reference": "大家一起合唱生日快樂歌。",
+        "prediction": "大家一起合唱生日快樂歌。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "佢表情盡多，毋知係想著麼个有意思个事情？",
+        "reference": "他表情非常多，不知道想到了什麼有意思的事情？",
+        "prediction": "他表情很複雜，不知道在想什麼有趣的事情？",
+        "sentence_bleu": 0.362397,
+        "bert_score_f1": 0.885681
+      },
+      {
+        "source": "有錢人正有辦法起青堂瓦舍來戴。",
+        "reference": "有錢人才有辦法蓋青堂瓦舍來住。",
+        "prediction": "有錢的人才有辦法蓋大房子住。",
+        "sentence_bleu": 0.448251,
+        "bert_score_f1": 0.854733
+      },
+      {
+        "source": "不管係做生理賺个錢，也係食人頭路領个月給，政府全部愛抽稅。",
+        "reference": "不管是做生意賺的錢，還是為人工作領的薪水，政府都要抽稅。",
+        "prediction": "不論是做生意賺來的錢，或是吃人頭路領到的薪水，政府都要課稅。",
+        "sentence_bleu": 0.447781,
+        "bert_score_f1": 0.909342
+      },
+      {
+        "source": "這隻飛行機這下个高度係兩萬英尺。",
+        "reference": "這架飛機現在的高度是兩萬英尺。",
+        "prediction": "這架飛機現在的高度是兩萬英尺。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "面對恐怖分子个威脅，政府當頭那痛。",
+        "reference": "面對恐怖分子的威脅，政府很頭痛。",
+        "prediction": "面對恐怖份子的威脅，政府很頭疼。",
+        "sentence_bleu": 0.708588,
+        "bert_score_f1": 0.988014
+      },
+      {
+        "source": "有一張千票个錢在若个腳底下。",
+        "reference": "有一張千元鈔票在你的腳底下。",
+        "prediction": "有一張千元鈔票在你的腳下。",
+        "sentence_bleu": 0.824744,
+        "bert_score_f1": 0.979773
+      },
+      {
+        "source": "阿伯買賣估價當公道 ，故所﹝所以﹞當多人會來尋佢幫忙。",
+        "reference": "伯父買賣估價很公道，所以很多人都會請他幫忙。",
+        "prediction": "叔叔買賣估價很公道，所以很多人會來找他幫忙。",
+        "sentence_bleu": 0.700158,
+        "bert_score_f1": 0.950925
+      },
+      {
+        "source": "𠊎這下係泥菩薩過河－－自身難保，沒能力摎你𢯭手。",
+        "reference": "我現在是泥菩薩過江－－自身難保，沒有能力幫你的忙。",
+        "prediction": "我現在是泥菩薩過河－－自身難保，沒有能力幫你忙。",
+        "sentence_bleu": 0.797599,
+        "bert_score_f1": 0.974351
+      },
+      {
+        "source": "阿姊當有才能，對厥公司來講，係一個罕得有个人才。",
+        "reference": "姊姊很有才能，對她公司來說，是一個難得有的人才。",
+        "prediction": "姐姐很有能力，對她所在的公司，是一個難得的人才。",
+        "sentence_bleu": 0.424731,
+        "bert_score_f1": 0.884193
+      },
+      {
+        "source": "肚屎當枵﹝當飢﹞，嬰兒仔吮乳吮到嘖嘖滾。",
+        "reference": "肚子很餓，小嬰兒吸乳吸個不停。",
+        "prediction": "肚子很餓，小嬰孩吸奶吸得滿嘴都是奶沫。",
+        "sentence_bleu": 0.375428,
+        "bert_score_f1": 0.859488
+      },
+      {
+        "source": "無人在屋下个時節，這兜細鬼仔就開始變鬼變怪。",
+        "reference": "沒人在家時，這些小鬼就開始搞鬼。",
+        "prediction": "沒有人在家裡的時候，這些小孩子就開始胡鬧。",
+        "sentence_bleu": 0.282617,
+        "bert_score_f1": 0.879334
+      },
+      {
+        "source": "車仔愛加油正做得行。",
+        "reference": "車子要加油料才能行駛。",
+        "prediction": "車子要加油才可以跑。",
+        "sentence_bleu": 0.448952,
+        "bert_score_f1": 0.895323
+      },
+      {
+        "source": "「細阿妹仔，有麼个急事？仰行恁遽？」",
+        "reference": "「小妹，有什麼急事？怎麼走得這樣快？」",
+        "prediction": "「小姑娘，有什麼急事？怎麼跑得這麼快？」",
+        "sentence_bleu": 0.557975,
+        "bert_score_f1": 0.956837
+      },
+      {
+        "source": "等下主辦人就愛當眾宣布得獎人个名仔，這下大家全緊張到恬索索。",
+        "reference": "等一會兒主辦人就要當眾宣布得獎人的名字，現在大家都緊張的鴉雀無聲。",
+        "prediction": "等一下主辦人就要在眾人面前宣布得獎者的名字，現在大家都緊張得發抖。",
+        "sentence_bleu": 0.531647,
+        "bert_score_f1": 0.886938
+      },
+      {
+        "source": "這隻月超支了，下隻月使錢愛省兜仔正做得。",
+        "reference": "這個月超支了，下個月花錢要省一些才可以。",
+        "prediction": "這個月超過預算花費了，下個月用錢要節省一點才行。",
+        "sentence_bleu": 0.340478,
+        "bert_score_f1": 0.891195
+      },
+      {
+        "source": "承蒙你看得起﹝又讀南⃣kon⁵⁵e³¹hi³¹﹞，實在當感謝。",
+        "reference": "承蒙你看得起，實在很感謝。",
+        "prediction": "多虧你看得起，我真的很感謝。",
+        "sentence_bleu": 0.492027,
+        "bert_score_f1": 0.882459
+      },
+      {
+        "source": "選舉期間，當多候選人个競選總部有好食，當多人伙食外開，食到當暢。",
+        "reference": "選舉期間，很多候選人競選總部有得吃，很多人家中不開伙，白吃白喝，吃得好高興。",
+        "prediction": "選舉期間，很多候選人的競選總部有好吃的東西，很多人吃得很高興。",
+        "sentence_bleu": 0.452267,
+        "bert_score_f1": 0.851822
+      },
+      {
+        "source": "今晡日係阿姆開店以來盡賺錢个一日。",
+        "reference": "今天是母親開店以來最賺錢的一天。",
+        "prediction": "今天是媽媽開店以來最賺錢的一天。",
+        "sentence_bleu": 0.762466,
+        "bert_score_f1": 0.970351
+      },
+      {
+        "source": "閒間仔。",
+        "reference": "空著的房間。",
+        "prediction": "空檔時間。",
+        "sentence_bleu": 0.31611,
+        "bert_score_f1": 0.726628
+      },
+      {
+        "source": "這恁久來有當多新个醫療技術對國外引進，病人就有較多个選擇。",
+        "reference": "最近以來有許多的新的醫療技術從國外引進，病人就有較多的選擇。",
+        "prediction": "最近有很多新的醫療技術從國外引進，病人就有更多的選擇。",
+        "sentence_bleu": 0.673027,
+        "bert_score_f1": 0.954768
+      },
+      {
+        "source": "佢做人盡硬直，毋著个事情絕對毋會做。",
+        "reference": "他做人最正直，不對的事情絕對不會做。",
+        "prediction": "他為人很剛直，不合理的事情絕不會做。",
+        "sentence_bleu": 0.39515,
+        "bert_score_f1": 0.900172
+      },
+      {
+        "source": "昨晡日電視項播个凶手分人捉著哩。",
+        "reference": "昨天電視上播出的殺人犯被抓到了。",
+        "prediction": "昨天電視上播出的凶手被人抓到囉！",
+        "sentence_bleu": 0.541579,
+        "bert_score_f1": 0.912992
+      },
+      {
+        "source": "無論係揣令仔，也係揣燈謎，佢就當慶。",
+        "reference": "無論是猜謎語，還是猜燈謎，他都很行。",
+        "prediction": "不管是猜謎語或是猜燈謎，他都很喜歡。",
+        "sentence_bleu": 0.568285,
+        "bert_score_f1": 0.91326
+      },
+      {
+        "source": "這種敗家子會畜衰人。",
+        "reference": "這種敗家子養了會倒楣。",
+        "prediction": "這種敗家子會害到別人。",
+        "sentence_bleu": 0.448339,
+        "bert_score_f1": 0.807317
+      },
+      {
+        "source": "阿伯打算退休以後移居到莊下養老。",
+        "reference": "伯父打算退休以後遷居到鄉下養老。",
+        "prediction": "伯父打算退休以後移居到鄉下養老。",
+        "sentence_bleu": 0.828248,
+        "bert_score_f1": 0.993481
+      },
+      {
+        "source": "相傳商朝係因為紂王忒好色，正會分人滅忒。",
+        "reference": "相傳商朝是因為紂王太好色，才會被人滅亡。",
+        "prediction": "相傳商朝是因為紂王太好色，所以才被人滅掉。",
+        "sentence_bleu": 0.694127,
+        "bert_score_f1": 0.955026
+      },
+      {
+        "source": "行善个事情值得褒揚。",
+        "reference": "善行值得讚美表揚。",
+        "prediction": "做好事值得讚美。",
+        "sentence_bleu": 0.412248,
+        "bert_score_f1": 0.820955
+      },
+      {
+        "source": "阿公長透會去伯公屋下過家尞。",
+        "reference": "祖父常常會去伯公家串門子。",
+        "prediction": "爺爺常常會去伯公廟那裡拜訪。",
+        "sentence_bleu": 0.413744,
+        "bert_score_f1": 0.818634
+      },
+      {
+        "source": "佢毋單淨愛分擔家事，還愛𢯭手出去賺錢。",
+        "reference": "他不只要分擔家事，還要幫忙出去賺錢。",
+        "prediction": "他不僅要分擔家務，還要幫忙外出賺錢。",
+        "sentence_bleu": 0.479754,
+        "bert_score_f1": 0.94255
+      },
+      {
+        "source": "這隻柑仔哪會酸，你該下係毋係有食甜个東西？",
+        "reference": "這顆橘子怎麼會酸，你剛才是不是有吃甜的東西？",
+        "prediction": "這個橘子怎麼會酸，你剛才是不是吃了太多甜的東西？",
+        "sentence_bleu": 0.691991,
+        "bert_score_f1": 0.94205
+      },
+      {
+        "source": "食了東西以後愛馬上搓牙齒﹝洗牙齒﹞，恁樣正毋會有牙黃。",
+        "reference": "吃完東西要馬上刷牙，這樣才不會有牙垢。",
+        "prediction": "吃完東西後要立刻刷牙，這樣才不會有牙齒變黃的情形。",
+        "sentence_bleu": 0.496928,
+        "bert_score_f1": 0.900235
+      },
+      {
+        "source": "兩軍開打，從戰利品就看得出兩方个軍力。",
+        "reference": "兩軍開打，從戰利品就可看出兩方的軍力。",
+        "prediction": "兩軍交戰，從戰利品就可以看出雙方的軍力。",
+        "sentence_bleu": 0.557975,
+        "bert_score_f1": 0.955937
+      },
+      {
+        "source": "佢打球个時節，無細義跌倒受傷。",
+        "reference": "他打球的時候，不小心跌倒受傷。",
+        "prediction": "他打球的時候，不小心跌倒受傷。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "摎紙擘爛。",
+        "reference": "把紙扯爛。",
+        "prediction": "撕破紙。",
+        "sentence_bleu": 0.309679,
+        "bert_score_f1": 0.852181
+      },
+      {
+        "source": "音樂做得感動人心，有移風易俗个作用。",
+        "reference": "音樂可以感動人心，有移風易俗的作用。",
+        "prediction": "音樂可以感動人心，有影響人的作用。",
+        "sentence_bleu": 0.67513,
+        "bert_score_f1": 0.911506
+      },
+      {
+        "source": "這罐除草劑當毒，毋好亂放。",
+        "reference": "這罐除草劑很毒，不要亂放。",
+        "prediction": "這罐除草劑很毒，不可隨便擺放。",
+        "sentence_bleu": 0.626284,
+        "bert_score_f1": 0.928834
+      },
+      {
+        "source": "同年嫂，吾同年恁久走去哪，全無看著人影。",
+        "reference": "同年嫂，我的同年近來去那兒，全沒看到人。",
+        "prediction": "同事，我的同事這麼久沒來上班，都沒有看到他的身影。",
+        "sentence_bleu": 0.177976,
+        "bert_score_f1": 0.745196
+      },
+      {
+        "source": "昨暗晡阿伯請大家食飯。",
+        "reference": "昨天晚上伯父請大家吃飯。",
+        "prediction": "昨晚伯父請大家吃飯。",
+        "sentence_bleu": 0.676695,
+        "bert_score_f1": 0.964272
+      },
+      {
+        "source": "企等个時節，摟褲袋仔毋好看。",
+        "reference": "站著的時後，手插在褲袋中不好看。",
+        "prediction": "站著的時候，摸口袋不可以看。",
+        "sentence_bleu": 0.268165,
+        "bert_score_f1": 0.814311
+      },
+      {
+        "source": "生活係毋係飽足，愛看自家个要求。",
+        "reference": "生活是否感到無所貪求，要看自己的要求。",
+        "prediction": "生活是否富裕，要看自己的要求。",
+        "sentence_bleu": 0.57045,
+        "bert_score_f1": 0.871691
+      },
+      {
+        "source": "放在田角个草人係用來嚇走屋簷鳥个。",
+        "reference": "放在田角的假草人是用來嚇走麻雀的。",
+        "prediction": "放置在田邊的草人是用來嚇走屋簷鳥的。",
+        "sentence_bleu": 0.448977,
+        "bert_score_f1": 0.899328
+      },
+      {
+        "source": "無麼个事情！斯請你順續（仔）摎垃圾擲忒定定。",
+        "reference": "沒什麼事情！只請你順便將垃圾丟掉而已。",
+        "prediction": "沒什麼事！只是請你把垃圾丟掉就好。",
+        "sentence_bleu": 0.356073,
+        "bert_score_f1": 0.903737
+      },
+      {
+        "source": "挼粄圓。",
+        "reference": "搓湯圓。",
+        "prediction": "揉糕團。",
+        "sentence_bleu": 0.359304,
+        "bert_score_f1": 0.777978
+      },
+      {
+        "source": "人講降子容易畜子難，故所﹝所以﹞爺哀養子當辛苦。",
+        "reference": "人說生子容易養子難，所以父母養育子女很辛苦。",
+        "prediction": "人說生小孩容易養小孩難，所以父母養育子女很辛苦。",
+        "sentence_bleu": 0.688043,
+        "bert_score_f1": 0.954498
+      },
+      {
+        "source": "𫣆兜係同班同學。",
+        "reference": "我們是同班同學。",
+        "prediction": "我們是同班同學。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "山路項朝晨會有雲霧，開車愛細義。",
+        "reference": "山路上早晨會有雲霧，開車要小心。",
+        "prediction": "山路上早上會有濃霧，開車要小心。",
+        "sentence_bleu": 0.667508,
+        "bert_score_f1": 0.965359
+      },
+      {
+        "source": "佢當發毋過長透發病仔，人講「財多身弱」真有道理。",
+        "reference": "他很有錢不過常常生病，人說「富人多病」真有道理。",
+        "prediction": "他很富有卻常常生病，人說「錢多事少」的確有道理。",
+        "sentence_bleu": 0.472403,
+        "bert_score_f1": 0.88658
+      },
+      {
+        "source": "想愛強化骨骼，做得多食有幫助个食物。",
+        "reference": "想要強化骨骼，可以多吃有幫助的食物。",
+        "prediction": "想要增強骨骼，可以多吃有幫助的食物。",
+        "sentence_bleu": 0.820301,
+        "bert_score_f1": 0.986028
+      },
+      {
+        "source": "這擺險險分人个詭計害著，好得佢自家精明，先探著，正無中計。",
+        "reference": "這次差一點被人的詭計陷害到，幸好他自己精明察覺到，才沒有中計。",
+        "prediction": "這次差點被別人的詭計害到，幸虧他自己聰明，先發現了，才沒有上當。",
+        "sentence_bleu": 0.335346,
+        "bert_score_f1": 0.888916
+      },
+      {
+        "source": "𠊎屋下歇到厥屋下上背，有閒來尞。",
+        "reference": "我家住在他家的上面，有空來坐坐。",
+        "prediction": "我家住在他家的隔壁，若有空可以來玩。",
+        "sentence_bleu": 0.427947,
+        "bert_score_f1": 0.862606
+      },
+      {
+        "source": "這圈豬腳還恁多豬毛，愛仰般食？",
+        "reference": "這塊豬腳還這麼多豬毛，要怎麼吃？",
+        "prediction": "這圈豬腳還有很多豬毛，要怎麼吃？",
+        "sentence_bleu": 0.641975,
+        "bert_score_f1": 0.910835
+      },
+      {
+        "source": "佢看啊著𠊎就閃開。",
+        "reference": "他一看到我就躲開。",
+        "prediction": "他看到我就躲開。",
+        "sentence_bleu": 0.784663,
+        "bert_score_f1": 0.969959
+      },
+      {
+        "source": "𠊎今晡日事情當多，實在走毋開腳，無法度去若个店仔𢯭手，當敗勢。",
+        "reference": "我今天事情很多，實在走不開，沒辦法去你的店裡幫忙，真不好意思。",
+        "prediction": "我今天事情很多，實在走不開腳，沒辦法去你的店裡幫忙，很不好意思。",
+        "sentence_bleu": 0.834995,
+        "bert_score_f1": 0.967594
+      },
+      {
+        "source": "在對方个誠心懇求下，阿伯決定撤銷告訴。",
+        "reference": "在對方誠心的懇求下，伯父決定撤銷告訴。",
+        "prediction": "在對方的誠心懇求下，伯父決定撤銷告訴。",
+        "sentence_bleu": 0.792037,
+        "bert_score_f1": 0.985117
+      },
+      {
+        "source": "鑊仔肥漬漬，做得用火灰先洗過正用米汁水洗加一遍。",
+        "reference": "鍋子油膩膩的，可以用草木灰先洗過再用洗米水洗一次。",
+        "prediction": "鍋子很髒，可以用火灰先清洗乾淨再用米酒水洗一次。",
+        "sentence_bleu": 0.339272,
+        "bert_score_f1": 0.867566
+      },
+      {
+        "source": "阿姊在逐本課本項都做記號，免致自家拿毋著。",
+        "reference": "姊姊在每本課本上都做了記號，避免自己拿錯。",
+        "prediction": "姐姐在每一本教科書上都做記號，以免自己找不到。",
+        "sentence_bleu": 0.204727,
+        "bert_score_f1": 0.881246
+      },
+      {
+        "source": "該家人為著防賊仔，起盡高个圍牆。",
+        "reference": "那家人為了防小偷，蓋很高的圍牆。",
+        "prediction": "那家人為了防止小偷，蓋得很高的圍牆。",
+        "sentence_bleu": 0.688837,
+        "bert_score_f1": 0.965914
+      },
+      {
+        "source": "𠊎頭先食東西个時節，一無細義嗄咬著舌嫲。",
+        "reference": "我剛才吃東西的時候，一不小心竟咬到舌頭。",
+        "prediction": "我剛才吃東西的時候，沒注意到就咬到舌頭。",
+        "sentence_bleu": 0.657716,
+        "bert_score_f1": 0.904728
+      },
+      {
+        "source": "這間店賣个菜包好食又當便宜。",
+        "reference": "這間店賣的菜包好吃又很便宜。",
+        "prediction": "這家店賣的菜包很好吃又很便宜。",
+        "sentence_bleu": 0.686507,
+        "bert_score_f1": 0.971201
+      },
+      {
+        "source": "該個國家連年打戰，老百姓個個都黃皮瘦弱，無好食。",
+        "reference": "那個國家連年戰爭，老百姓個個都面黃肌瘦，沒得吃。",
+        "prediction": "那個國家連年打仗，老百姓一個個都黃皮瘦弱，沒好吃的。",
+        "sentence_bleu": 0.388549,
+        "bert_score_f1": 0.891341
+      },
+      {
+        "source": "大家在打嘴鼓个時節，盡惱石頭狗來亂插嘴。",
+        "reference": "大家在聊天的時候，很討厭石頭狗來亂插嘴。",
+        "prediction": "大家在說笑的時候，最討厭石頭狗來亂插嘴。",
+        "sentence_bleu": 0.67124,
+        "bert_score_f1": 0.944206
+      },
+      {
+        "source": "這件事情𠊎會設法解決，你毋使愁。",
+        "reference": "這件事情我會設法解決，你不必擔心。",
+        "prediction": "這件事我會設法解決，你不用擔心。",
+        "sentence_bleu": 0.667498,
+        "bert_score_f1": 0.977465
+      },
+      {
+        "source": "人講「嫁雞跈雞飛，嫁狗跈狗走。」結婚了後就愛同若老公好好過日仔，莫冤家。",
+        "reference": "人家說「嫁雞隨雞，嫁狗隨狗。」結婚以後就要跟你先生好好過日子，別吵架。",
+        "prediction": "人說「嫁雞隨雞飛，嫁狗隨狗跑。」結婚以後就要和你的丈夫好好過日子，不要吵架。",
+        "sentence_bleu": 0.562698,
+        "bert_score_f1": 0.92283
+      },
+      {
+        "source": "對天光日个面試，佢全無信心。",
+        "reference": "對明天的面試，他完全沒有信心。",
+        "prediction": "對明天的面試，他完全沒有信心。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "清明節係在暮春三四月仔該下。",
+        "reference": "清明節是在暮春三四月的時候。",
+        "prediction": "清明節是在暮春三四月間。",
+        "sentence_bleu": 0.713045,
+        "bert_score_f1": 0.945408
+      },
+      {
+        "source": "落雨﹝落水﹞了，有三個細人仔囥到就近个山窿肚來寄雨﹝閃水﹞。",
+        "reference": "下雨了，有三個孩子躲進附近的山洞裡避雨。",
+        "prediction": "下雨了，有三個小孩躲在附近的山洞裡避雨。",
+        "sentence_bleu": 0.729838,
+        "bert_score_f1": 0.976071
+      },
+      {
+        "source": "經過專家个改裝﹝又讀大⃣gai³¹zong³³﹞，這車仔个性能好加當多。",
+        "reference": "經過專家的改裝，這車子的性能好很多。",
+        "prediction": "經過專家的改裝，這輛車子的性能變得更好。",
+        "sentence_bleu": 0.624724,
+        "bert_score_f1": 0.901784
+      },
+      {
+        "source": "成功當要緊个因素，就係認真打拚。",
+        "reference": "成功很重要的因素，就是認真努力。",
+        "prediction": "成功最重要的因素，就是認真努力。",
+        "sentence_bleu": 0.84822,
+        "bert_score_f1": 0.982667
+      },
+      {
+        "source": "厥个表演實在係古古琢琢，看著个人儕儕笑毋停。",
+        "reference": "他的表演實在非常滑稽，看到的人個個都笑個不停。",
+        "prediction": "他的表演實在很有趣，看到的人都笑不停。",
+        "sentence_bleu": 0.458553,
+        "bert_score_f1": 0.919876
+      },
+      {
+        "source": "好恬恬仔，阿哥毋知係因為麼个事在該鬧脾氣？",
+        "reference": "好端端的，哥哥不知道是為了什麼事在那發脾氣？",
+        "prediction": "很安靜，哥哥不知道是因為什麼事情在生氣？",
+        "sentence_bleu": 0.395632,
+        "bert_score_f1": 0.829708
+      },
+      {
+        "source": "當多年前，厥爺哀就已經無在了。",
+        "reference": "很多年前，他父母就已去世了。",
+        "prediction": "很久以前，他父母就已經過世了。",
+        "sentence_bleu": 0.542378,
+        "bert_score_f1": 0.932749
+      },
+      {
+        "source": "賭徼係毋合法个事情。",
+        "reference": "賭博是不合法的事情。",
+        "prediction": "賭博是不合法的事情。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "阿爸在颱風吂來以前，摎屋頂个天篷﹝又讀大⃣tien³³bung¹¹³﹞釘釘好來。",
+        "reference": "爸爸趕在颱風來之前，將屋頂的天棚釘牢！",
+        "prediction": "父親在颱風還沒來之前，把屋頂的雨遮釘好。",
+        "sentence_bleu": 0.285923,
+        "bert_score_f1": 0.879415
+      },
+      {
+        "source": "請食（一）杯茶來哪。",
+        "reference": "請喝杯茶。",
+        "prediction": "請喝一杯茶來。",
+        "sentence_bleu": 0.321729,
+        "bert_score_f1": 0.885335
+      },
+      {
+        "source": "鹹菜摎豬肚共下煮湯，盡合味。",
+        "reference": "酸菜和豬胃一塊煮湯，味道很好。",
+        "prediction": "鹹菜和豬腸一起煮湯，很好吃。",
+        "sentence_bleu": 0.259603,
+        "bert_score_f1": 0.884665
+      },
+      {
+        "source": "芋仔恁大條，好看定定，裡肚係空心个。",
+        "reference": "芋頭這麼大個，好看而已，裡面是空心的。",
+        "prediction": "芋頭這麼大塊，很漂亮，裡面是空心的。",
+        "sentence_bleu": 0.593355,
+        "bert_score_f1": 0.91314
+      },
+      {
+        "source": "無論男女老幼，大家都愛參加健保。",
+        "reference": "不論男女老幼，大家都要參加健保。",
+        "prediction": "不分男女老幼，大家都要加入健保。",
+        "sentence_bleu": 0.653144,
+        "bert_score_f1": 0.947981
+      },
+      {
+        "source": "一般人鋸樹仔，會用牛尾鋸。",
+        "reference": "一般人鋸樹，會用牛尾鋸。",
+        "prediction": "一般人鋸樹木，都會用牛尾鋸。",
+        "sentence_bleu": 0.660633,
+        "bert_score_f1": 0.963318
+      },
+      {
+        "source": "服裝設計師係領導服裝流行个先鋒。",
+        "reference": "服裝設計師是領導服裝流行的先鋒。",
+        "prediction": "服裝設計師是引領服裝流行的先驅。",
+        "sentence_bleu": 0.653144,
+        "bert_score_f1": 0.962394
+      },
+      {
+        "source": "大自然係大家个財產，𫣆愛好好愛護佢。",
+        "reference": "大自然是大家的財產，我們要好好愛護它。",
+        "prediction": "大自然是我們所有人的財產，我們要好好保護它。",
+        "sentence_bleu": 0.560293,
+        "bert_score_f1": 0.929743
+      },
+      {
+        "source": "隔壁伯姆平常忒操勞，還吂享福就過身了。",
+        "reference": "隔壁的伯母平常太操勞，還沒享到福就逝世了。",
+        "prediction": "隔壁鄰居太操勞，還沒享受到幸福生活就去世了。",
+        "sentence_bleu": 0.4029,
+        "bert_score_f1": 0.873833
+      }
+    ]
+  },
+  "zh2hakka": {
+    "summary": {
+      "samples": 1224,
+      "avg_sentence_bleu": 0.556753,
+      "corpus_bleu": 0.555538,
+      "bert_score_f1": 0.886123
+    },
+    "samples": [
+      {
+        "source": "萬事起頭難，肯努力去做就不用怕做不好。",
+        "reference": "萬事起頭難，肯煞猛去做就毋使驚做毋好。",
+        "prediction": "萬事起頭難，肯煞猛去做就毋使驚做毋好。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "風車有大風吹才會轉得很快。",
+        "reference": "風車有大風吹正會捩當轂。",
+        "prediction": "風車有大風吹正會轉到當遽。",
+        "sentence_bleu": 0.626284,
+        "bert_score_f1": 0.841164
+      },
+      {
+        "source": "神話故事裡，有很多神仙住在西天。",
+        "reference": "神話故事肚，有當多神仙戴在西天。",
+        "prediction": "神話故事肚，當多神仙戴在西天。",
+        "sentence_bleu": 0.828579,
+        "bert_score_f1": 0.955779
+      },
+      {
+        "source": "弟弟在學校擔任班長。",
+        "reference": "老弟在學校擔任班長。",
+        "prediction": "老弟在學校擔任班長。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "才學幾個月裁縫而已，他就會做衣服了，真是很厲害！",
+        "reference": "正學幾隻月裁縫定定，佢就會做衫了，實在還慶！",
+        "prediction": "正學幾隻月剪衫褲正來，佢就會做衫褲了，實在當厥力！",
+        "sentence_bleu": 0.455679,
+        "bert_score_f1": 0.844055
+      },
+      {
+        "source": "母親煮雞肉以前會先將雞洗乾淨，再用沸水把血水燙除。",
+        "reference": "阿姆煮雞肉以前會先將雞仔洗淨，再用滾水摎血水熝忒。",
+        "prediction": "阿姆炆雞肉以前會先摎雞仔洗淨來，正用滾水摎血水燒忒。",
+        "sentence_bleu": 0.520756,
+        "bert_score_f1": 0.907167
+      },
+      {
+        "source": "前線當兵，常常會輪到站崗。",
+        "reference": "前線做兵，當輒輪到站崗。",
+        "prediction": "前線做兵，輒常會輪著企崗。",
+        "sentence_bleu": 0.416075,
+        "bert_score_f1": 0.832772
+      },
+      {
+        "source": "前年那場車禍，讓大舅的腳瘸掉了。",
+        "reference": "前年該擺車禍，讓大舅个腳瘸忒了。",
+        "prediction": "頭年該場車禍，分阿舅个腳跛忒了。",
+        "sentence_bleu": 0.286342,
+        "bert_score_f1": 0.850178
+      },
+      {
+        "source": "他家的門風很嚴謹，所以他做事很有規矩。",
+        "reference": "厥屋下个門風盡嚴，故所﹝所以﹞佢做事當有規矩。",
+        "prediction": "厥屋下个門風當嚴謹，故所﹝所以﹞佢做事情盡有規矩。",
+        "sentence_bleu": 0.682301,
+        "bert_score_f1": 0.951376
+      },
+      {
+        "source": "這個敗家子喜歡賭博，把家產敗光光。",
+        "reference": "這個了尾子好賭徼，摎家產了淨淨。",
+        "prediction": "這隻敗家仔好賭，摎屋下个財產打淨淨。",
+        "sentence_bleu": 0.185438,
+        "bert_score_f1": 0.751438
+      },
+      {
+        "source": "客人只要花三百元，就可以在這間自助餐店吃到飽。",
+        "reference": "人客淨出三百個銀，就做得在這間自助餐店食到飽。",
+        "prediction": "賓客係愛花三百銀，正做得在這間自助餐店食到飽。",
+        "sentence_bleu": 0.61974,
+        "bert_score_f1": 0.875247
+      },
+      {
+        "source": "九二一地震後，政府單位幫助罹難者家屬處理善後。",
+        "reference": "九二一地動以後，政府單位𢯭手罹難者个家屬處理善後。",
+        "prediction": "九二一地動過後，政府單位𢯭手罹難者个家屬處理善後。",
+        "sentence_bleu": 0.894226,
+        "bert_score_f1": 0.984294
+      },
+      {
+        "source": "這條圍巾花費我一個月的時間才織好。",
+        "reference": "這條頸圍仔耗費𠊎一個月个時間正打好。",
+        "prediction": "這條圍巾花費𠊎一隻月个時間正織好。",
+        "sentence_bleu": 0.377647,
+        "bert_score_f1": 0.885093
+      },
+      {
+        "source": "犯法的事不要做，偏偏去做就叫做明知故犯。",
+        "reference": "犯法个事，偏偏去做就安到明知故犯。",
+        "prediction": "犯法个事毋好做，偏偏去做就喊做「明知故犯」。",
+        "sentence_bleu": 0.469974,
+        "bert_score_f1": 0.86401
+      },
+      {
+        "source": "他打定主意出國讀書。",
+        "reference": "佢決心出國讀書。",
+        "prediction": "佢打定主意出國讀書。",
+        "sentence_bleu": 0.479878,
+        "bert_score_f1": 0.898417
+      },
+      {
+        "source": "他以前是我們莊裡的大戶耕種人家，現在搬到臺北開點心店，聽說相當賺錢。",
+        "reference": "佢原在係𫣆俚莊肚个大耕種，這下徙到臺北開點心店，聽講盡賺錢。",
+        "prediction": "佢頭擺係𫣆莊項个大戶耕種人家，這下徙去臺北開點心店仔，聽講盡賺錢。",
+        "sentence_bleu": 0.461627,
+        "bert_score_f1": 0.885713
+      },
+      {
+        "source": "滿山遍野的芒草，遠遠看很像雲的樣子。",
+        "reference": "滿山个菅芒花，遠遠看當像雲樣仔。",
+        "prediction": "滿山遍野个芒仔草，遠遠看當像雲﹝又讀南⃣nang⁵⁵in¹¹﹞个樣仔。",
+        "sentence_bleu": 0.246859,
+        "bert_score_f1": 0.813865
+      },
+      {
+        "source": "打榖粒的人手若不夠，小孩也叫去幫忙。",
+        "reference": "打禾个人手係毋罅，細人仔乜喊去𢯭手。",
+        "prediction": "搵穀仔个人手毋罅，細人仔乜喊去𢯭手。",
+        "sentence_bleu": 0.733177,
+        "bert_score_f1": 0.911492
+      },
+      {
+        "source": "受國民教育是每個國民的權利，也是義務。",
+        "reference": "受國民教育係每個國民个權利，也係義務﹝又讀海⃣ngi³³vu¹¹﹞。",
+        "prediction": "受國民教育係逐個國民个權利，乜係義務。",
+        "sentence_bleu": 0.300075,
+        "bert_score_f1": 0.869998
+      },
+      {
+        "source": "那隻小牛的毛色很漂亮。",
+        "reference": "該隻牛牸仔个毛色當靚。",
+        "prediction": "該隻細牛仔个毛色當靚。",
+        "sentence_bleu": 0.686589,
+        "bert_score_f1": 0.944105
+      },
+      {
+        "source": "陳祕書因為生病，很久沒到公司上班了。",
+        "reference": "陳祕書因為破病，當久無來公司上班了。",
+        "prediction": "陳祕書因為發病，當久無去公司上班了。",
+        "sentence_bleu": 0.688837,
+        "bert_score_f1": 0.961672
+      },
+      {
+        "source": "每晚爸爸都要去巡看門窗，看有關好了，才去睡覺。",
+        "reference": "每暗晡阿爸都愛去巡窗門，看有關好了，正去睡目。",
+        "prediction": "逐暗晡阿爸就愛去巡看門窗，看有無關好了，正去睡目。",
+        "sentence_bleu": 0.553975,
+        "bert_score_f1": 0.90238
+      },
+      {
+        "source": "尊敬老師，是做學生應盡的本分。",
+        "reference": "尊敬先生，係做學生仔應該盡个本分。",
+        "prediction": "尊敬先生，係做學生人應盡个本分。",
+        "sentence_bleu": 0.727921,
+        "bert_score_f1": 0.949668
+      },
+      {
+        "source": "根據氣象報告，臺灣最近會有颱風，大家要注意防範。",
+        "reference": "根據氣象報告，臺灣最近會有風搓，大家愛注意防範。",
+        "prediction": "照天時報告，臺灣這駁仔會有風搓，大家愛注意防範。",
+        "sentence_bleu": 0.674891,
+        "bert_score_f1": 0.864648
+      },
+      {
+        "source": "早上到現在，我肚子空空的一點東西都沒吃。",
+        "reference": "朝晨到這下，𠊎肚凹凹一滴東西都無食。",
+        "prediction": "朝晨到這下，𠊎肚屎空空，一滴仔東西全無食。",
+        "sentence_bleu": 0.478662,
+        "bert_score_f1": 0.889556
+      },
+      {
+        "source": "天氣冷的時候，穿棉襖最暖和。",
+        "reference": "天氣冷个時節，著棉襖盡燒暖。",
+        "prediction": "天時寒个時節，著棉襖盡暖。",
+        "sentence_bleu": 0.610379,
+        "bert_score_f1": 0.889332
+      },
+      {
+        "source": "農會常常會拜託專家試驗分植菜苗的新方法，來增加農產品的銷售量。",
+        "reference": "農會長透會拜託專家試驗活菜秧仔个新方法，來增加農產品个銷路。",
+        "prediction": "農會輒常會拜託專家試驗分植菜苗个新方法，來增加農產品个銷售量。",
+        "sentence_bleu": 0.619969,
+        "bert_score_f1": 0.89162
+      },
+      {
+        "source": "姑姑住在我家隔壁。",
+        "reference": "阿姑戴在吾屋下隔壁。",
+        "prediction": "阿姑戴在吾屋下隔壁。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "這棟樓的高度有一百公尺。",
+        "reference": "這棟樓个高度有一百公尺。",
+        "prediction": "這棟樓个高有一百公尺。",
+        "sentence_bleu": 0.761939,
+        "bert_score_f1": 0.961105
+      },
+      {
+        "source": "這個疼痛大概持續多久了呢？",
+        "reference": "續等恁樣痛有幾久吔呢？",
+        "prediction": "這隻痛大約有幾久吔？",
+        "sentence_bleu": 0.345316,
+        "bert_score_f1": 0.779653
+      },
+      {
+        "source": "努力抄寫，久了就會熟練。",
+        "reference": "煞猛抄寫，久了就會熟絡。",
+        "prediction": "煞猛抄寫，久了就會熟練。",
+        "sentence_bleu": 0.842363,
+        "bert_score_f1": 0.943588
+      },
+      {
+        "source": "這次通緝的犯人，有幾位被警方抓到了。",
+        "reference": "這擺通緝个人犯，有幾儕分警方捉著了。",
+        "prediction": "這擺通緝个犯人，有幾儕分警察捉著了。",
+        "sentence_bleu": 0.647783,
+        "bert_score_f1": 0.938836
+      },
+      {
+        "source": "爸爸走路不小心跌倒受傷了。",
+        "reference": "阿爸行路毋堵好跌倒著傷了。",
+        "prediction": "阿爸行路毋細義跌倒著傷了。",
+        "sentence_bleu": 0.699752,
+        "bert_score_f1": 0.867812
+      },
+      {
+        "source": "光著上身出門真的是很失禮的事情，還是穿件衣服才好。",
+        "reference": "打赤膊出門係當失禮个事情，還係著領衫正好。",
+        "prediction": "無衫無褲出門正經係當失禮个事情，還係著領衫正好。",
+        "sentence_bleu": 0.687512,
+        "bert_score_f1": 0.907062
+      },
+      {
+        "source": "班上的同學來自各地，大家真的是有緣才會在一起。",
+        "reference": "班項个同學來自各地，大家正經係有緣正會共下。",
+        "prediction": "班項个同學來自各地，大家正經係有緣正會共下。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "這匹花布，是從前外婆送給媽媽的嫁妝。",
+        "reference": "這匹花布仔，係頭擺姐婆送分阿姆个嫁妝。",
+        "prediction": "這領花布，係頭擺阿婆送分阿姆个嫁妝。",
+        "sentence_bleu": 0.624589,
+        "bert_score_f1": 0.931109
+      },
+      {
+        "source": "他一生氣鬍子就翹起來。",
+        "reference": "佢一發閼就鬚惹惹（仔）。",
+        "prediction": "佢一發火，鬚就翹起來。",
+        "sentence_bleu": 0.222652,
+        "bert_score_f1": 0.750488
+      },
+      {
+        "source": "汽車排放的廢氣會汙染環境。",
+        "reference": "汽車排放个廢氣會汙染環境。",
+        "prediction": "汽車个廢氣會污染環境。",
+        "sentence_bleu": 0.481367,
+        "bert_score_f1": 0.923389
+      },
+      {
+        "source": "他今天去買一套衣服。",
+        "reference": "佢今晡日去買一身衫褲。",
+        "prediction": "佢今晡日去買一領衫褲。",
+        "sentence_bleu": 0.734889,
+        "bert_score_f1": 0.966456
+      },
+      {
+        "source": "墾丁公園的風景實在很美。",
+        "reference": "墾丁公園个風景實在真靚。",
+        "prediction": "墾丁公園个風景實在已﹝異﹞靚。",
+        "sentence_bleu": 0.626284,
+        "bert_score_f1": 0.889236
+      },
+      {
+        "source": "老師講課時，同學都目不轉睛的一直看黑板上寫的字。",
+        "reference": "先生講課該下，同學都眼睛睛（仔）緊看粉牌頂高寫个字。",
+        "prediction": "先生講課該下，同學全目毋眨一息仔看書桌頂寫个字。",
+        "sentence_bleu": 0.44301,
+        "bert_score_f1": 0.818323
+      },
+      {
+        "source": "走出屋外，眼前就是一片綠油油的稻田。",
+        "reference": "行出屋外，眼前就係一片青里里个禾田。",
+        "prediction": "行出屋外，目前就係一片青青个禾埔。",
+        "sentence_bleu": 0.54032,
+        "bert_score_f1": 0.858002
+      },
+      {
+        "source": "媽媽炒菜較喜歡用花生油，比較不喜歡用豬油。",
+        "reference": "阿姆炒菜較愛用地豆油，較無愛用豬油。",
+        "prediction": "阿姆炒菜較好食用花生油，較毋好食豬油。",
+        "sentence_bleu": 0.36685,
+        "bert_score_f1": 0.866778
+      },
+      {
+        "source": "形容行事緩慢或拖拖拉拉的樣子。",
+        "reference": "摸摸挲挲。",
+        "prediction": "講話毋遽，做事情也毋遽。",
+        "sentence_bleu": 0.103903,
+        "bert_score_f1": 0.575108
+      },
+      {
+        "source": "他打球打到全身有汗臭味。",
+        "reference": "佢打球打到歸身仔臭汗酸。",
+        "prediction": "佢打球打到歸身臭汗﹝濞汗﹞。",
+        "sentence_bleu": 0.532801,
+        "bert_score_f1": 0.870075
+      },
+      {
+        "source": "姊姊從小就希望長大以後可以去教書。",
+        "reference": "阿姊還細時就希望大了以後做得去教書。",
+        "prediction": "阿姊從細就希望長大以後做得去教書。",
+        "sentence_bleu": 0.549109,
+        "bert_score_f1": 0.901312
+      },
+      {
+        "source": "上級指導員來開會，主席請他坐大位。",
+        "reference": "上級指導員來開會，主席請佢坐上橫桌。",
+        "prediction": "上級指導員來開會，主席請佢坐大位。",
+        "sentence_bleu": 0.783093,
+        "bert_score_f1": 0.945924
+      },
+      {
+        "source": "這麼大了，他從來不曾出國玩。",
+        "reference": "恁大了，佢從來毋識出國尞。",
+        "prediction": "恁大了，佢從來無出去尞過。",
+        "sentence_bleu": 0.556854,
+        "bert_score_f1": 0.894181
+      },
+      {
+        "source": "這麼貪心抱太多東西，走起路來掉得七零八落的。",
+        "reference": "恁貪心扐忒多東西，行起路來跌到滴滴溚溚。",
+        "prediction": "恁賊心㧡忒多東西，行路跌到七零八落。",
+        "sentence_bleu": 0.334668,
+        "bert_score_f1": 0.836753
+      },
+      {
+        "source": "他每次講話都講得不清不楚，大家都聽不懂他的意思是什麼。",
+        "reference": "佢逐擺講話講到毋清毋楚，大家就聽毋識厥个意思係麼个。",
+        "prediction": "佢逐擺講話就講毋清楚，大家全聽毋識佢个意思係麼个。",
+        "sentence_bleu": 0.552266,
+        "bert_score_f1": 0.908357
+      },
+      {
+        "source": "爸爸去街上幫媽媽配中藥。",
+        "reference": "阿爸去街項摎阿姆拈藥仔。",
+        "prediction": "阿爸去街項摎阿姆合藥仔。",
+        "sentence_bleu": 0.761161,
+        "bert_score_f1": 0.953378
+      },
+      {
+        "source": "鴨蛋比雞蛋大一些。",
+        "reference": "鴨春比雞卵大一息仔。",
+        "prediction": "鴨卵較雞卵大兜仔。",
+        "sentence_bleu": 0.290526,
+        "bert_score_f1": 0.829646
+      },
+      {
+        "source": "用畚斗把這些垃圾裝出去。",
+        "reference": "用畚斗摎這兜垃圾抔出去。",
+        "prediction": "用畚箕摎這兜垃圾拈出去。",
+        "sentence_bleu": 0.52664,
+        "bert_score_f1": 0.925308
+      },
+      {
+        "source": "勉強逼自己去做不喜歡做的事，何苦？",
+        "reference": "強強逼自家去做毋歡喜做个事，何苦？",
+        "prediction": "勉強摎自家推去做毋好个事，麼个煞猛？",
+        "sentence_bleu": 0.214792,
+        "bert_score_f1": 0.767962
+      },
+      {
+        "source": "發明或製造一個新的東西浪費精神也費工夫。",
+        "reference": "創造新个東西耗精神又耗工夫。",
+        "prediction": "發明抑係製造一隻新个東西浪費精神乜費工夫。",
+        "sentence_bleu": 0.243382,
+        "bert_score_f1": 0.814076
+      },
+      {
+        "source": "拿到醫生開的藥方，就可以去藥房請人依藥方調製藥劑。",
+        "reference": "拿著醫生開个藥方，就做得去藥房請人配藥。",
+        "prediction": "拿著先生開个藥方，就做得去藥店請人摎藥仔調理。",
+        "sentence_bleu": 0.536067,
+        "bert_score_f1": 0.906196
+      },
+      {
+        "source": "人說：「暗箭難防。」這就是要我們小心提防小人的暗中陷害。",
+        "reference": "人講：「暗箭難防。」這就係愛𫣆細義提防小人个暗中陷害。",
+        "prediction": "人講：「暗箭難防。」這就係愛𫣆細義提防小人个暗中陷害。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "昨天晚上沒睡好，今天一整天都呵欠連連。",
+        "reference": "昨暗晡睡毋落覺，今晡日歸日擘嘴擘鼻。",
+        "prediction": "昨暗晡無睡好，今晡日歸日就噭到會死。",
+        "sentence_bleu": 0.396709,
+        "bert_score_f1": 0.797598
+      },
+      {
+        "source": "啞巴是因為聽不到，不知如何說，才不會說話。",
+        "reference": "啞仔係因為聽毋著，毋知愛仰般講，正毋會講話。",
+        "prediction": "啞巴係因為聽毋著，毋知仰般講，正毋會講話。",
+        "sentence_bleu": 0.794599,
+        "bert_score_f1": 0.964621
+      },
+      {
+        "source": "春光明媚，看起來很舒服。",
+        "reference": "春光明媚，看來盡鬆爽。",
+        "prediction": "春光明媚，看起來當鬆爽。",
+        "sentence_bleu": 0.592303,
+        "bert_score_f1": 0.900262
+      },
+      {
+        "source": "族群要和諧，大家才會有安穩的日子過。",
+        "reference": "族群愛和諧，大家正會有安穩日仔好過。",
+        "prediction": "族群愛和諧，大家正會有安穩个日仔過。",
+        "sentence_bleu": 0.786748,
+        "bert_score_f1": 0.951333
+      },
+      {
+        "source": "今年是他進公司以來拿年終獎金最少的一年。",
+        "reference": "今年係佢入公司以來拿年終獎金盡少个一年。",
+        "prediction": "今年係佢在該公司以來拿年終獎金盡少个一年。",
+        "sentence_bleu": 0.823249,
+        "bert_score_f1": 0.962258
+      },
+      {
+        "source": "他說今天會下雨，完全被他猜中。",
+        "reference": "佢講今晡日會落雨﹝落水﹞，分佢揣到準準。",
+        "prediction": "佢講今晡日會落水﹝落雨﹞，完全分佢猜著。",
+        "sentence_bleu": 0.454327,
+        "bert_score_f1": 0.903255
+      },
+      {
+        "source": "要去陌生的地方，可以先買地圖來研究。",
+        "reference": "愛去生分个所在，做得先買地圖來研究。",
+        "prediction": "愛去無熟个所在，做得先買地圖仔來研究。",
+        "sentence_bleu": 0.670929,
+        "bert_score_f1": 0.894326
+      },
+      {
+        "source": "錢存在銀行比放在家中穩當。",
+        "reference": "錢存在銀行比放在屋肚較保險。",
+        "prediction": "錢放在銀行較穩當。",
+        "sentence_bleu": 0.192603,
+        "bert_score_f1": 0.842061
+      },
+      {
+        "source": "吃的東西很充足，你可盡量吃。",
+        "reference": "食个東西當充足，你做你煞猛食。",
+        "prediction": "食个東西當豐盛，你做得盡量食。",
+        "sentence_bleu": 0.416939,
+        "bert_score_f1": 0.834112
+      },
+      {
+        "source": "販賣犀牛角是違法的。",
+        "reference": "販賣犀角係違法个。",
+        "prediction": "販賣犀牛角係違法个。",
+        "sentence_bleu": 0.701688,
+        "bert_score_f1": 0.972517
+      },
+      {
+        "source": "大家盡力幫助這次因為地震而無家可歸的災民。",
+        "reference": "大家盡力幫助這擺因為地動嗄無屋好戴个災民。",
+        "prediction": "大家盡力𢯭手這擺因為地動﹝又讀大⃣dei³¹dong⁵⁵﹞無屋好戴个災民。",
+        "sentence_bleu": 0.38647,
+        "bert_score_f1": 0.838392
+      },
+      {
+        "source": "現在都市裡的小孩子，不知道什麼叫做抓蜻蜓和蚱蜢了。",
+        "reference": "這下都市肚个細人仔，毋知麼个安到拈揚尾打草蜢了。",
+        "prediction": "這下都市肚个細人仔，毋知麼个係捉蜻蜓摎蟬仔了。",
+        "sentence_bleu": 0.601712,
+        "bert_score_f1": 0.88326
+      },
+      {
+        "source": "聽說冤死的人，死了還不肯閉眼。",
+        "reference": "聽講冤枉死个人，死了還毋肯眨目。",
+        "prediction": "聽講冤死个人，死了還毋肯合目。",
+        "sentence_bleu": 0.667774,
+        "bert_score_f1": 0.932081
+      },
+      {
+        "source": "有關金融方面的問題，需要專家共同商量。",
+        "reference": "有關金融方面个問題，需要專家來共下參詳。",
+        "prediction": "有關金融方面个問題，愛專家共下來討論。",
+        "sentence_bleu": 0.565597,
+        "bert_score_f1": 0.888596
+      },
+      {
+        "source": "做人要實在，否則就會心中猶豫而混亂。",
+        "reference": "做人愛實在，無就會像腳踏雙條船，心肝亂茫茫。",
+        "prediction": "做人愛實在，無斯就會心頭猶豫而混亂。",
+        "sentence_bleu": 0.342673,
+        "bert_score_f1": 0.757078
+      },
+      {
+        "source": "世界上很多人想要得到榮華富貴。",
+        "reference": "世上盡多人想愛得著榮華富貴。",
+        "prediction": "世界項當多人想愛得著榮華富貴。",
+        "sentence_bleu": 0.736757,
+        "bert_score_f1": 0.914969
+      },
+      {
+        "source": "正當的自我保護行為，在法律上是合法的。",
+        "reference": "正當个自衛行為，在法律上係合法个。",
+        "prediction": "正當个自衛行為，在法律項係合法个。",
+        "sentence_bleu": 0.839433,
+        "bert_score_f1": 0.958131
+      },
+      {
+        "source": "因為家裡負擔很重，所以他決定去辦貸款來解決註冊費的事情。",
+        "reference": "因為屋下負擔當重，故所﹝所以﹞佢決定去辦貸款來解決註冊費个事情。",
+        "prediction": "因為屋下負擔當重，故所﹝所以﹞佢決定去辦貸款來解決註冊費个事情。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "為了準備公費留學的考試，他努力打拚了很多天，竟在考試那天生病，真是人算不如天算。",
+        "reference": "為著準備公費留學个考試，佢煞猛打拚恁多日，嗄在考試該日發病，正經係人會算，天會斷。",
+        "prediction": "為著準備公費留學个考試，佢煞猛打拚當多日仔，嗄在考試該日發病，正經係人算毋如天算。",
+        "sentence_bleu": 0.74668,
+        "bert_score_f1": 0.923333
+      },
+      {
+        "source": "等我有錢了，就要建一棟四面八方採光都很好的房子。",
+        "reference": "等𠊎有錢了，就愛來起一棟八角樓。",
+        "prediction": "等𠊎有錢了，就愛起一間四面八方採光都當好个屋仔。",
+        "sentence_bleu": 0.356684,
+        "bert_score_f1": 0.80581
+      },
+      {
+        "source": "請問老伯貴姓？",
+        "reference": "請問阿伯上姓？",
+        "prediction": "請問阿公貴姓？",
+        "sentence_bleu": 0.411134,
+        "bert_score_f1": 0.894357
+      },
+      {
+        "source": "夏天的時候，用井水來洗臉，又涼又方便。",
+        "reference": "熱天个時節，用井水來洗面，又涼又方便。",
+        "prediction": "熱天个時節，用井水來洗面盆，還涼又方便。",
+        "sentence_bleu": 0.772195,
+        "bert_score_f1": 0.955382
+      },
+      {
+        "source": "人說早知如此，何必當初，假使你當初聽你爸的話，事情的結果就不是這樣了。",
+        "reference": "人講早知拉尿，企到天光，假使你早先聽若爸个話，事情个結果就毋係恁樣了。",
+        "prediction": "人講早知恁仔，何必當初，假使你頭擺聽阿爸个話，事情个結果就毋會恁樣了。",
+        "sentence_bleu": 0.515508,
+        "bert_score_f1": 0.853659
+      },
+      {
+        "source": "在神話故事裡，海龍王有很多的蝦兵蟹將。",
+        "reference": "在神話故事肚，海龍王有盡多个蝦兵蟹將。",
+        "prediction": "在神話故事肚，海龍王有盡多个蝦兵蟹將。",
+        "sentence_bleu": 1.0,
+        "bert_score_f1": 1.0
+      },
+      {
+        "source": "每年清明過後的那個禮拜天要全家出門踏青，是祖先留下的習慣。",
+        "reference": "逐年清明過後个禮拜日愛歸屋人出門踏青，係祖先留下來个習慣。",
+        "prediction": "逐年清明過忒个該隻禮拜日愛歸家人出門踏青，係祖公留下來个風俗。",
+        "sentence_bleu": 0.548955,
+        "bert_score_f1": 0.896162
+      },
+      {
+        "source": "不曾有這麼多錢，這次可以好好花費一下。",
+        "reference": "毋識有恁多錢，這擺做得大使一下。",
+        "prediction": "無恁多錢，今擺做得好好消費一下。",
+        "sentence_bleu": 0.352309,
+        "bert_score_f1": 0.800582
+      },
+      {
+        "source": "有些大學生畢業以後，去海外讀研究所。",
+        "reference": "有兜大學生畢業以後，去外洋讀研究所。",
+        "prediction": "有兜大學生畢業以後，去海外讀研究所。",
+        "sentence_bleu": 0.80265,
+        "bert_score_f1": 0.970261
+      },
+      {
+        "source": "在這麼重要的場所演講都不會緊張，大家都稱讚他是大方的年輕人。",
+        "reference": "在恁重要个場所演講全毋會緊張，大家全講佢係當出眾个後生。",
+        "prediction": "在恁重要个場所演講就毋會緊張，大家都稱讚佢係大方个後生人。",
+        "sentence_bleu": 0.557982,
+        "bert_score_f1": 0.892808
+      },
+      {
+        "source": "現在他的心情非常紛亂，無法做出任何的判斷。",
+        "reference": "現下厥个心情盡紛亂，無法度做出任何个決定。",
+        "prediction": "這下佢个心情當紛亂，無法度做出任何个判斷。",
+        "sentence_bleu": 0.594156,
+        "bert_score_f1": 0.895875
+      },
+      {
+        "source": "現在人沒有修補鍋子了。",
+        "reference": "現下人無補鑊仔了。",
+        "prediction": "這下人無摎鑊仔補了。",
+        "sentence_bleu": 0.326497,
+        "bert_score_f1": 0.875507
+      },
+      {
+        "source": "大家晚上要小心門戶的安全，現在的小偷很囂張。",
+        "reference": "大家暗晡頭愛注意門戶个安全，這下个賊仔當兇。",
+        "prediction": "大家暗晡頭愛細義門戶个安全，這下个賊仔盡大膽。",
+        "sentence_bleu": 0.66896,
+        "bert_score_f1": 0.890021
+      },
+      {
+        "source": "弟弟要去奶奶家玩，媽媽囑咐愛帶禮物給奶奶。",
+        "reference": "老弟愛去阿婆屋下尞，阿姆叮嚀愛帶等路分阿婆。",
+        "prediction": "老弟愛去阿婆屋下尞，阿姆囑咐愛帶禮仔分阿婆。",
+        "sentence_bleu": 0.672516,
+        "bert_score_f1": 0.921168
+      },
+      {
+        "source": "一天又一天。",
+        "reference": "日打日。",
+        "prediction": "日日仔。",
+        "sentence_bleu": 0.427287,
+        "bert_score_f1": 0.73763
+      },
+      {
+        "source": "看他面容衰老，可能有七十多歲了。",
+        "reference": "看佢面皮打摺，怕有七十零歲了。",
+        "prediction": "看佢面相衰老，可能有七零八十年了。",
+        "sentence_bleu": 0.196727,
+        "bert_score_f1": 0.826818
+      },
+      {
+        "source": "這位老師對這本書的講法非常清楚。",
+        "reference": "這位先生對這本書个講法盡了解。",
+        "prediction": "這個先生對這本書个講法盡清明。",
+        "sentence_bleu": 0.680375,
+        "bert_score_f1": 0.903643
+      },
+      {
+        "source": "工作壓力，讓他感到心情煩悶。",
+        "reference": "工作壓力，使佢試著心糟糟（仔）。",
+        "prediction": "頭路壓力，分佢試著心情毋爽快。",
+        "sentence_bleu": 0.295017,
+        "bert_score_f1": 0.715326
+      },
+      {
+        "source": "先幫我扶著梯子，我要爬到屋頂去。",
+        "reference": "先摎𠊎扳等﹝又讀海⃣ban⁵³nen²⁴﹞梯仔，𠊎愛爬到屋頂去。",
+        "prediction": "先摎𠊎撐等梯仔，𠊎愛蹶上屋頂去。",
+        "sentence_bleu": 0.188291,
+        "bert_score_f1": 0.834519
+      },
+      {
+        "source": "俗話說：「窮人不用多，兩升白米會唱歌。」窮人多半比富人更容易獲得滿足。",
+        "reference": "俗語講：「窮人毋使多，兩升白米會唱歌。」窮苦人人抵比有錢人還較容易得著滿足。",
+        "prediction": "俗話講：「窮人毋使多，兩升白米會唱歌。」窮人大體較容易得著滿足。",
+        "sentence_bleu": 0.667137,
+        "bert_score_f1": 0.917199
+      },
+      {
+        "source": "站在高原頂看下去，風景很美。",
+        "reference": "企到埔頂看下去，風景當靚。",
+        "prediction": "企到山頂項看下來，風景當靚。",
+        "sentence_bleu": 0.492027,
+        "bert_score_f1": 0.919547
+      },
+      {
+        "source": "這個菜籃的底部爛掉，不能用了。",
+        "reference": "這隻菜籃塌底，做毋得用了。",
+        "prediction": "這隻菜籃个底盤爛忒，做毋得使了。",
+        "sentence_bleu": 0.398468,
+        "bert_score_f1": 0.874724
+      },
+      {
+        "source": "這間醫院有院長的兒子承繼，就不怕沒人經營。",
+        "reference": "這間醫院有院長个倈仔接腳，就毋驚無人經營。",
+        "prediction": "這間醫院有院長个倈仔承繼，就毋驚無人經營。",
+        "sentence_bleu": 0.823249,
+        "bert_score_f1": 0.96245
+      },
+      {
+        "source": "火箭都上到月球了，就不要再講月亮上有人的空話。",
+        "reference": "火箭都上到月球了，就莫再講月光頂項有人个空話。",
+        "prediction": "火箭都上到月球了，毋好再講月光上有人个空話。",
+        "sentence_bleu": 0.673224,
+        "bert_score_f1": 0.925002
+      },
+      {
+        "source": "老闆太忙，只好請一個女僕來幫忙。",
+        "reference": "頭家忒無閒，高不將請一個使女來𢯭手。",
+        "prediction": "頭家恁無閒，正好請一隻細妹仔來𢯭手。",
+        "sentence_bleu": 0.301434,
+        "bert_score_f1": 0.819695
+      }
+    ]
+  }
+}
