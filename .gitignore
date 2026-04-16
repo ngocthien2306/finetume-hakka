@@ -148,3 +148,8 @@ cython_debug/
 # Python cache files (cpython bytecode)
 *.cpython-*.pyc
 *.cpython-*.pyo
+
+notebooks/.ipynb_checkpoints/
+notebooks/ngocthien/
+notebooks/outputs/
+notebooks/unsloth_compiled_cache/
